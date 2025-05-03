@@ -15,12 +15,10 @@ const HeroSection = () => {
               WE TACK CARE OF YOUR HEALTH
             </span>
             <h1 className="mb-6 text-4xl font-bold leading-tight text-secondary md:text-5xl lg:text-6xl">
-              We Are Providing Best & Affordable Health Care.
+            We Are Providing Best & Hassle-Free Affordable Health Care.
             </h1>
             <p className="mb-8 text-gray-300">
-              Our goal is to deliver the highest quality healthcare services.
-              We believe that everyone deserves access to excellent 
-              medical care without compromising on quality.
+            Our mission is to provide accessible, high-quality healthcare for everyone — combining excellence in medical care with the convenience of digital service, without ever compromising on quality
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <Link

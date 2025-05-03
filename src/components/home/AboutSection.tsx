@@ -32,8 +32,7 @@ const AboutSection = () => {
               Our Best Services & Popular Treatment Here.
             </h2>
             <p className="mb-8 text-gray-600">
-              For more than 10 years, we have been delivering innovative medical services focused on individual patient needs. We combine traditional healthcare approaches with cutting-edge medical technologies to provide comprehensive treatment options.
-            </p>
+            Our platform combines traditional medical services with modern technology, allowing you to book appointments, select your preferred doctor, view real-time availability, and access test reports, all online. We offer comprehensive care, from consultation to admission, with the convenience of digital service.</p>
 
             {/* Services List */}
             <div className="mb-8">

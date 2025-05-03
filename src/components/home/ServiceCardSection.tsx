@@ -8,13 +8,17 @@ const ServiceCardSection = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {/* Contact Card */}
           <div className="rounded-lg bg-secondary p-6 text-primary shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Don't Hesitate To Contact Us</h3>
+            <h3 className="mb-2 text-xl font-semibold">Schedule your medical consultation</h3>
+            <p className="mb-4 text-sm text-gray-300">
+            Real-time updates regarding your appointment queue number will be provided
+            </p>
             <Link
               to="/appointment"
               className="mt-4 inline-block rounded-md bg-primary px-4 py-2 text-white transition-colors hover:bg-opacity-90"
             >
               Make Appointment
             </Link>
+            
           </div>
 
           {/* Family Health Card */}
@@ -22,9 +26,9 @@ const ServiceCardSection = () => {
             <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-secondary text-primary">
               <Users size={24} />
             </div>
-            <h3 className="mb-2 text-xl font-semibold">Need Family Health</h3>
+            <h3 className="mb-2 text-xl font-semibold">Meet our consultants</h3>
             <p className="mb-4 text-sm text-gray-300">
-              We provide comprehensive care for your entire family with personalized treatment plans.
+            Review the details about our consultants, then select your preferred consultant
             </p>
           </div>
 
